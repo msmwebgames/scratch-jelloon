@@ -37,7 +37,7 @@ input::-webkit-inner-spin-button {
 
 #board {
     background-color: rgb(248, 215, 231);
-    height: 90vh;
+    height: 100%;
     margin: 5vh 2vw;
     overflow: hidden;
     padding: 2vh 2vw;
