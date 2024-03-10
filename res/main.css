@@ -35,5 +35,27 @@ h1 {
     overflow: hidden;
     padding: 2vh 2vw;
     position: relative;
-    width: 90vw;
+    height: 80vh;
+    max-width: 60vh;
+    vertical-align: middle;
+}
+
+#circle-1, #circle-2 {
+    position: absolute;
+    background-color: #9D8568;
+    z-index: -1;    
+}
+#circle-1 {
+    left: 0vw;
+    bottom: -10vh;
+    height: min(100vh, 100vw);
+    width: min(100vh, 100vw);
+    border-radius: min(100vh, 100vw);
+}
+#circle-2 {
+    right: -10vh;
+    top: -10vh;
+    height: min(80vh, 80vw);
+    width: min(80vh, 80vw);
+    border-radius: min(80vh, 80vw);
 }
