@@ -6,6 +6,9 @@ const boardElement = document.querySelector('#board');
 const jelloonElement = document.querySelector('#image');
 jelloonElement.addEventListener('click', handleJelloonClick);
 
+const happyJelloonImage = new Image();
+happyJelloonImage.src = 'res/images/happyjelloon.png';
+
 const messageElement = document.querySelector('#message');
 messageElement.innerText = 'Rub count: ' + rubCount;
 
